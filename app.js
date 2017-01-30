@@ -1,0 +1,1 @@
+var cardsCtrl = new CardsController()
