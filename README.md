@@ -12,8 +12,7 @@ Once you sign in and authenticate your account with the confirmation email you s
 ![marvel-api](marvel-api-page.png)
 
 
-To make requests to the marvel api you will need to use your public key by appending it to the end of your api query.
-
+To make requests to the marvel api you will need to use your public key by appending it to the end of your api query. You will also want to make sure that you add `localhost` and `github.io` to the list of approved domains. 
 
 ```javascript
 
