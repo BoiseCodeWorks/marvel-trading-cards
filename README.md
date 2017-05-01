@@ -5,7 +5,7 @@ Let's put together an application that allows users to create their dreamteam of
 
 For this challenge you will be working with data from the Marvel Api. The Marvel api requires a key when requesting data so you are going to need to register for one of your own.
 
-[Request your key](https://marvel.com/signin)
+[Request your key](https://developer.marvel.com)
 
 Once you sign in and authenticate your account with the confirmation email you should see a page similar to this
 
