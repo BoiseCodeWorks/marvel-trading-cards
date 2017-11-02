@@ -26,13 +26,8 @@ function MarvelService(){
   
   
   this.getCharacters = function(callWhenDone){
-    var data = localStorage.getItem('MarvelData')
-    if(data){
-      marvelCharacters = JSON.parse(data);
-      return callWhenDone(marvelCharacters)
-    }
+    //Use &offset=Number to add pagination
     $.get(baseUrl + 'characters'+key, function(response){
-      localStorage.setItem('MarvelData', JSON.stringify(response.data.results))
       marvelCharacters = response.data.results;
       callWhenDone(marvelCharacters)
     })
