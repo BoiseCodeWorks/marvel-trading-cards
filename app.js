@@ -1,1 +1,5 @@
-var cardsCtrl = new CardsController()
+var app = {
+ controllers: {
+   marvelController = new CardsController()
+ }
+}
