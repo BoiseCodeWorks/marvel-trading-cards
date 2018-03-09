@@ -1,5 +1,5 @@
 function CardsController() {
-var marvelService = new globals.MarvelService()
+var marvelService = new MarvelService()
 
   this.add = function add(id){
     console.log('characterId', id)
@@ -10,6 +10,7 @@ var marvelService = new globals.MarvelService()
   function ready(data) {
 
     updateMarvel(data)
+  }
 
     function updateMarvel(list) {
       var elem = document.getElementById('marvel-characters')
